@@ -1,0 +1,14 @@
+language: c
+
+os:
+  - osx
+
+# Keep these dependencies in sync with README.md
+before_install:
+  - brew install autoconf automake libtool gettext
+  - brew link --force gettext
+
+script:
+  - git clone --recursive -b support/osxfuse-3 git://github.com/osxfuse/osxfuse.git osxfuse
+  - cd osxfuse
+  - ./build.sh -t distribution
