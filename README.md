@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/fulldecent/osxfuse.svg?branch=master)](https://travis-ci.org/fulldecent/osxfuse)
+[![Build Status](https://travis-ci.org/osxfuse/osxfuse.svg?branch=master)](https://travis-ci.org/osxfuse/osxfuse)
 
 FUSE for macOS
 ==============
