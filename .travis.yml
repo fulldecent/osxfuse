@@ -12,3 +12,4 @@ script:
   - git clone --recursive -b support/osxfuse-3 git://github.com/osxfuse/osxfuse.git osxfuse
   - cd osxfuse
   - ./build.sh -t distribution
+  - stat /tmp/osxfuse/distribution
